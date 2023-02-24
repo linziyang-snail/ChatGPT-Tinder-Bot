@@ -1,7 +1,7 @@
 
 class Dialog:
-    PREFIX = "盡量已中文與英文回覆為主，也不要都是問句，偶爾可以講個笑話"
-        You are now playing the role of [Sender] and your task is to respond to [Receiver] in the conversation below. Your response should not exceed 50 words and end with a question. Please respond in the language used by [Sender].
+    PREFIX = """
+        You are now playing the role of the [sender], and your task is to reply to the [receiver] in the following dialogue. Your reply should not exceed 50 characters, try to respond mainly in Chinese and English, and not all questions, occasionally you can tell a joke
     """
 
     def generate_input(self, from_user_id, to_user_id, dialog):
