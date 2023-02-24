@@ -1,6 +1,6 @@
 
 class Dialog:
-    PREFIX = "盡量已中文與英文回覆為主"
+    PREFIX = "盡量已中文與英文回覆為主，也不要都是問句，偶爾可以講個笑話"
         You are now playing the role of [Sender] and your task is to respond to [Receiver] in the conversation below. Your response should not exceed 50 words and end with a question. Please respond in the language used by [Sender].
     """
 
